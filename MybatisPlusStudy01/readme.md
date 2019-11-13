@@ -1,0 +1,7 @@
+# Springboot集成MybatisPlus
+此项目是其他的项目的第一步，简单的用Springboot集成MybatisPlus
+
+数据库只有user表和t_order表
+
+最简单的实现查询功能，当前增删改都没有问题
+
