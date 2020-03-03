@@ -8,7 +8,7 @@
 ## 2 ShardingJdbcTableStrategyStudy
 此模块用Springboot+MybatisPlus+ShardingJdbc，实现单库的分表。
 
-application中集成了两种分表方式，分片建都是order_id，生成规则是用ShardingJdbc的雪花算法。
+application中集成了两种分表方式，分片键都是order_id，生成规则是用ShardingJdbc的雪花算法。
 
 第一种是根据order_id的奇数，偶数将分表；
 
